@@ -213,3 +213,18 @@ console.log("list of random");
 for(let i=0;i<random.length;i++){
    // console.log(random[i]);   
 }
+//41
+var magician:string[] = ["joker",'buddy',"heri"];
+function magician_names(){
+    for(let i=0;i<magician.length;i++){
+console.log(magician[i]);
+    }
+}
+magician_names();
+//42
+function great_magician(tag:string){
+    for(let i=0;i<magician.length;i++){
+        console.log(`${magician[i]} is a ${tag}`);
+    }
+}
+great_magician("great magician");

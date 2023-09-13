@@ -204,9 +204,24 @@ for (let i = 0; i < animals.length; i++) {
     }
 }
 //console.log("Any of these animals would make a great pet!");
-//28
+//20
 var random = ["canada", 'urdu', 'car', 'chak jhumra', "moon"];
 console.log("list of random");
 for (let i = 0; i < random.length; i++) {
-    console.log(random[i]);
+    // console.log(random[i]);   
 }
+//41
+var magician = ["joker", 'buddy', "heri"];
+function magician_names() {
+    for (let i = 0; i < magician.length; i++) {
+        console.log(magician[i]);
+    }
+}
+magician_names();
+//42
+function great_magician(tag) {
+    for (let i = 0; i < magician.length; i++) {
+        console.log(`${magician[i]} is a ${tag}`);
+    }
+}
+great_magician("great magician");
