@@ -225,3 +225,132 @@ function great_magician(tag) {
     }
 }
 great_magician("great magician");
+//43
+function make_great(originalmagicians) {
+    let greatmagician = [];
+    for (let i = 0; i < originalmagicians.length; i++) {
+        var magician = originalmagicians[i] + "the great";
+        greatmagician.push(magician);
+    }
+    return greatmagician;
+}
+function showMagicians(magicianNames) {
+    for (let l = 0; l < magicianNames.length; l++) {
+        console.log(magicianNames[l]);
+    }
+}
+var names = ['herry', "joker", "jack", "jinbaba"];
+const greatmagician = make_great([...names]);
+console.log("original");
+showMagicians(names);
+console.log("with the great");
+showMagicians(greatmagician);
+//44
+function make_sandwich(items) {
+    console.log("your are sandwich ready with following items");
+    for (let i = 0; i < items.length; i++) {
+        // console.log(`-${items}`);
+    }
+}
+make_sandwich(['bread', "cheese", "chicken"]);
+make_sandwich(['kethcup', "eggs"]);
+make_sandwich(["extra cheese", "potates"]);
+//23
+let jeep = "honda";
+let age1 = 20;
+let jeepcolour = 'black';
+let rain = false;
+// console.log("is jeep= 'honda' ? i predict true");
+// console.log(jeep == "honda");
+// console.log("is age1 < 22 ? i predict true");
+// console.log(age1 < 22);
+// console.log('is jeepcolour = white ? i predict false');
+// console.log(jeepcolour== "black");
+// console.log("is rain is happening ? i predict false");
+// console.log(rain = false);
+// console.log("is jeep != toyato ? i predict false");
+// console.log(jeep !== "toyayto");
+// console.log("is age1 >20 ? i predict false");
+// console.log(age1>20);
+let fruits1 = ["apple],'grapes"];
+let num = 10;
+let num2 = 4;
+let driving = false;
+// console.log("is fruits.length = 2 ? i predict true");
+// console.log(fruits.length == 2);
+// console.log('is num = 11 ? i predict false');
+// console.log(num == 11);
+var users = ["sarab", "cheema", 'rock', "herry"];
+if (users.length == 0) {
+    console.log("we need some users");
+}
+else {
+    //console.log("we not need users");
+}
+for (let i = users.length - 1; i >= 0; i--) {
+    users.pop();
+    if (users.length == 0) {
+        //    console.log("we need some users");
+        // }
+        // else{
+        //     console.log("we not need users");
+    }
+}
+//34
+var pizzas = ["kabab", "onion", 'vegetarian'];
+for (let i = 0; i < pizzas.length; i++) {
+    // console.log(`i like ${pizzas[i]} pizza`);
+}
+// console.log('pizza is small meal');
+// console.log('pizza provide different taste with diffreren flavours');
+// console.log('i really like pizza!');
+//33
+var sepnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+for (let i = 0; i < sepnumbers.length; i++) {
+    let add;
+    if (sepnumbers[i] == 1) {
+        add = "st";
+    }
+    else if (sepnumbers[i] == 2) {
+        add = 'nd';
+    }
+    else if (sepnumbers[i] == 3) {
+        add = 'rd';
+    }
+    else if (sepnumbers[i] == 4) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 5) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 6) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 7) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 8) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 9) {
+        add = "th";
+    }
+    // console.log(`${sepnumbers[i]}${add}`);
+}
+//32
+var currentusers = ["sarab", 'wasif', "cheema", "saqib"];
+var newusers = ["taqi", "farz", "sarab", "umer"];
+for (let i = 0; i < currentusers.length; i++) {
+    if (newusers.includes(currentusers[i])) {
+        //console.log(`${currentusers[i]} is not accepted`);
+    }
+    else {
+        //console.log(`${currentusers[i]} is accepted`);
+    }
+}
+//22
+var find = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const index = 6;
+console.log(`Accessing element at index ${index}: ${find[11]}`);
+const index2 = 3;
+console.log(`Accessing element at index ${index}: ${find[index2]}`);
