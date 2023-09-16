@@ -1,19 +1,19 @@
 // 2
-var stud:string = "Eric"
+var stud: string = "Eric"
 // console.log('hello',stud,"would you like learn phython today");
 //3
-var personsName:string[] = ["sarab","wasif","cheema"];
+var personsName: string[] = ["sarab", "wasif", "cheema"];
 //print name as list
 /*console.log("lowercase",personsName[0]);
 console.log('uppercase',personsName[1]);
 console.log("titlecase",personsName[2]);*/
 //4
-var aurthur:string = "Albert Einstein";
-var quote:string = "A person who never made a mistake never tried anything new."
+var aurthur: string = "Albert Einstein";
+var quote: string = "A person who never made a mistake never tried anything new."
 // console.log(aurthur,"once said,",`"${quote}"`);
 //5
-let famousPerson:string = "Sarab";
-let message:string = "everyone will get what he works for";//msg to print
+let famousPerson: string = "Sarab";
+let message: string = "everyone will get what he works for";//msg to print
 // console.log(message);
 //6
 const nameWithWhitespace = "\t\tJohn Doe\n";
@@ -26,64 +26,110 @@ const strippedName = nameWithWhitespace.trim();
 //console.log("\nName after stripping whitespace:");
 //console.log(strippedName);
 //7
-var addition:number = 6+2;
+var addition: number = 6 + 2;
 //console.log("Addition result =",addition);
-var subtraction:number = 12-4;
+var subtraction: number = 12 - 4;
 //console.log("subtraction result =",subtraction);
-var multiplication:number = 4*2;
+var multiplication: number = 4 * 2;
 //console.log("multiplication result =",multiplication);
-var divison:number = 64/8;
+var divison: number = 64 / 8;
 //console.log("divison result =",divison);
 //8
-console.log(5+3);
-console.log(5+3);
-console.log(5+3);
-console.log(5+3);
+console.log(5 + 3);
+console.log(5 + 3);
+console.log(5 + 3);
+console.log(5 + 3);
 //9
-var favNumber:number = 8;
-if(favNumber==8){
+var favNumber: number = 8;
+if (favNumber == 8) {
     //console.log(8 ,"is may favourite number");
 }
 //11
-var calledNames:string[] = ["saqib","wasif","taqi","sarab"];
-var friends = calledNames.forEach((calledNames)=>{
-   // console.log(calledNames);
+var calledNames: string[] = ["saqib", "wasif", "taqi", "sarab"];
+var friends = calledNames.forEach((calledNames) => {
+    // console.log(calledNames);
 })
 //12
-var freindsgroup:string[] = ["saqib","wasif","taqi","sarab"];
-var message2 = freindsgroup.forEach((freindsgroup:string)=>{
+var freindsgroup: string[] = ["saqib", "wasif", "taqi", "sarab"];
+var message2 = freindsgroup.forEach((freindsgroup: string) => {
     //console.log(freindsgroup,"have a nice day my freind");
 })
 //  13
 const motorcycles: string[] = ["Honda", "Yamaha", "Kawasaki", "Ducati", "BMW"];
-var transport = motorcycles.forEach((data)=>{
-   // console.log(`i would like to own ${data} motorcycle`);
+var transport = motorcycles.forEach((data) => {
+    // console.log(`i would like to own ${data} motorcycle`);
 })
 //14
-var guests:string[] = ["rock","jack","deep"];
-var invitataion = guests.forEach((guests)=>{
-   // console.log(`Hy ${guests} i would like to invite yu on dinner`);
+var guests: string[] = ["rock", "jack", "deep"];
+var invitataion = guests.forEach((guests) => {
+    // console.log(`Hy ${guests} i would like to invite yu on dinner`);
 })
+//15
+var gusets1: string[] = ["rock", "jhonny deep", "cheema", "jack"];
+//one can not make dinerr 
+console.log("jack cant make it");
+gusets1.pop();
+gusets1.push("cheema");
+for (let i = 0; i < gusets1.length; i++) {
+    // console.log(`hello ${gusets1[i]} i invite yu on dinner`);
+}
+var gusets2: string[] = ["rock", "jhonny deep", "cheema", "jack"];
+console.log("hello huests i found a bigger table");
+//so add more names
+gusets2.unshift("herry");
+gusets2.push("jones");
+var middlename = Math.floor(gusets2.length / 2);
+var addg = "jaffery"
+gusets2.splice(middlename, 0, addg);
+for (let i = 0; i < gusets2.length; i++) {
+    //console.log(`hello ${gusets2[i]} i invite yu on dinner`);
+}
+//17
+// we have not dinner table spacce
+// console.log("guets i have not space on dinner");
+// gusets2.pop();
+// console.log("soory jones");
+// gusets2.shift();
+// console.log("sorry herry");
+// gusets2.pop();
+// console.log("sorry jack");
+// gusets2.pop();
+// console.log("soryy cheema");
+// gusets2.pop();
+// console.log("sorry jaffery");
+var still = gusets2.forEach((gusets2) => {
+    // console.log(`${gusets2} yu are still invited`);
+})
+gusets2.pop();
+gusets2.pop();//guest list are empty
+// console.log(gusets2);
+//18
+var places: string[] = ["paris", "mount everst", "hollywood"];
+console.log(places);
+places.sort();
+console.log(places);
+//19
+//console.log("i invited many peoples but at the ma guests list is empty");
 //20
-var random:string[] = ["canada",'urdu','car','chak jhumra',"moon"];
+var random: string[] = ["canada", 'urdu', 'car', 'chak jhumra', "moon"];
 console.log("list of random");
-for(let i=0;i<random.length;i++){
-   // console.log(random[i]);   
+for (let i = 0; i < random.length; i++) {
+    // console.log(random[i]);   
 }
 //21
-let car ={
-    company:"toyata",
-    model:"v8",
-    colour:"black",
-    modelyear:2023,
-    inuse:false
+let car = {
+    company: "toyata",
+    model: "v8",
+    colour: "black",
+    modelyear: 2023,
+    inuse: false
 }
 //console.log(car);
 //22
-var find:number[] = [1,2,3,4,5,6,7,8,9];
+var find: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const index = 11;
 // console.log(`Accessing element at index ${index}: ${find[index]}`);
-const index2 =3;
+const index2 = 3;
 // console.log(`Accessing element at index ${index}: ${find[index2]}`);
 
 //23
@@ -113,205 +159,205 @@ let driving = false;
 // console.log('is num = 11 ? i predict false');
 // console.log(num == 11);
 //25
-var alliencolour:string= "green"
-if(alliencolour=="green"){
+var alliencolour: string = "green"
+if (alliencolour == "green") {
     //console.log("player just earned 5 points");
 }
-else{
+else {
 
 }
 //26
-var alliencolour1:string = "green";
-if(alliencolour1=="green"){
+var alliencolour1: string = "green";
+if (alliencolour1 == "green") {
     //console.log("player just earned 5 points");
 }
-else{
+else {
     //console.log("playes just earned 10 points");
-    
+
 }
-var alliencolour2:string = "red";
-if(alliencolour2=="green"){
+var alliencolour2: string = "red";
+if (alliencolour2 == "green") {
     //console.log("player just earned 5 points");
 }
-else{
+else {
     //console.log("player just earned 10 points");
-    
+
 }
 //27
-var alliencolour3:string = "green";
-if(alliencolour3=="green"){
+var alliencolour3: string = "green";
+if (alliencolour3 == "green") {
     // console.log("player just earned 5 points");
 }
-var alliencolour4:string = "red";
-if(alliencolour4=="red"){
+var alliencolour4: string = "red";
+if (alliencolour4 == "red") {
     // console.log("player earned 15 points");
 }
-var alliencolour5:string= "yellow";
-if(alliencolour5=="yellow"){
+var alliencolour5: string = "yellow";
+if (alliencolour5 == "yellow") {
     // console.log("player just earned 10 points");
-} 
+}
 //28
-var age:number  = 20;
-if(age<2){
+var age: number = 20;
+if (age < 2) {
     console.log("baby");
 }
-else if(age==2&&age<4){
+else if (age == 2 && age < 4) {
     console.log("toddler");
 }
-else if(age==4&&age<13){
+else if (age == 4 && age < 13) {
     console.log("kid");
 }
-else if(age==13&&age<20){
+else if (age == 13 && age < 20) {
     console.log("teenager");
 }
-else if(age==20&&age<65){
+else if (age == 20 && age < 65) {
     //console.log("adult");
 }
-else{
+else {
     console.log("older");
 }
 //29
-var fruits:string[] = ["Apple","Mango","Banana"];
-if(fruits[0]=="Apple"){
-   // console.log("you really like Apple!");
+var fruits: string[] = ["Apple", "Mango", "Banana"];
+if (fruits[0] == "Apple") {
+    // console.log("you really like Apple!");
 }
- if(fruits[1]=="grapes"){
-   // console.log("yu like grapes!");
+if (fruits[1] == "grapes") {
+    // console.log("yu like grapes!");
 }
- if(fruits[1]=="Mango"){
-   // console.log("you like Mango!");
+if (fruits[1] == "Mango") {
+    // console.log("you like Mango!");
 }
- if(fruits[2]=="Banana"){
-   // console.log("you like banana!");
+if (fruits[2] == "Banana") {
+    // console.log("you like banana!");
 }
- if(fruits[0]=="pineapple"){
+if (fruits[0] == "pineapple") {
     console.log("yiu like pineapple!");
 }
 //30
-var userNames:string[] = ["Admin","Sarab","Saqib","wasif","taqi"];
-if(userNames[0]=="Admin"){
-    console.log("Hello Admin would you like to see a status report?") 
+var userNames: string[] = ["Admin", "Sarab", "Saqib", "wasif", "taqi"];
+if (userNames[0] == "Admin") {
+    console.log("Hello Admin would you like to see a status report?")
 }
-else{
-    console.log("hello"); 
+else {
+    console.log("hello");
 }
 //31
-var users :string[] = ["sarab","cheema",'rock',"herry"];
-if(users.length==0){
+var users: string[] = ["sarab", "cheema", 'rock', "herry"];
+if (users.length == 0) {
     console.log("we need some users");
 }
-else{
+else {
     //console.log("we not need users");
 }
-for(let i=users.length-1;i>=0;i--){ 
+for (let i = users.length - 1; i >= 0; i--) {
     users.pop()
-    if(users.length==0){
-    //    console.log("we need some users");
-    // }
-    // else{
-    //     console.log("we not need users");
-        
+    if (users.length == 0) {
+        //    console.log("we need some users");
+        // }
+        // else{
+        //     console.log("we not need users");
+
     }
 }
- //32
- var currentusers:string[] = ["sarab",'wasif',"cheema","saqib"];
- var newusers:string[] = ["taqi","farz","sarab","umer"];
-for(let i=0;i<currentusers.length;i++){
-  if(newusers.includes(currentusers[i])){
-//console.log(`${currentusers[i]} is not accepted`);
-  }
-  else{
-      //console.log(`${currentusers[i]} is accepted`);
-  }
- }
- //33
-var sepnumbers:number[] = [1,2,3,4,5,6,7,8,9,]
-for(let i=0;i<sepnumbers.length;i++){
- let add;
- if(sepnumbers[i]==1){
-     add = "st";
- }
- else if(sepnumbers[i]==2){
-     add = 'nd';
- }
- else if(sepnumbers[i]==3){
-     add = 'rd';
- }
- else if(sepnumbers[i]==4){
-     add = 'th';
- }
- else if(sepnumbers[i]==5){
-     add = 'th';
- }
- else if(sepnumbers[i]==6){
-     add = 'th';
- }
- else if(sepnumbers[i]==7){
-     add = 'th';
- }
- else if(sepnumbers[i]==8){
-     add = 'th';
- }
- else if(sepnumbers[i]==9){
-     add ="th";
- }
-// console.log(`${sepnumbers[i]}${add}`);
+//32
+var currentusers: string[] = ["sarab", 'wasif', "cheema", "saqib"];
+var newusers: string[] = ["taqi", "farz", "sarab", "umer"];
+for (let i = 0; i < currentusers.length; i++) {
+    if (newusers.includes(currentusers[i])) {
+        //console.log(`${currentusers[i]} is not accepted`);
+    }
+    else {
+        //console.log(`${currentusers[i]} is accepted`);
+    }
+}
+//33
+var sepnumbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+for (let i = 0; i < sepnumbers.length; i++) {
+    let add;
+    if (sepnumbers[i] == 1) {
+        add = "st";
+    }
+    else if (sepnumbers[i] == 2) {
+        add = 'nd';
+    }
+    else if (sepnumbers[i] == 3) {
+        add = 'rd';
+    }
+    else if (sepnumbers[i] == 4) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 5) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 6) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 7) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 8) {
+        add = 'th';
+    }
+    else if (sepnumbers[i] == 9) {
+        add = "th";
+    }
+    // console.log(`${sepnumbers[i]}${add}`);
 }
 //34
-var pizzas:string[] = ["kabab","onion",'vegetarian'];
-for(let i=0;i<pizzas.length;i++){
-   // console.log(`i like ${pizzas[i]} pizza`);
+var pizzas: string[] = ["kabab", "onion", 'vegetarian'];
+for (let i = 0; i < pizzas.length; i++) {
+    // console.log(`i like ${pizzas[i]} pizza`);
 }
 // console.log('pizza is small meal');
 // console.log('pizza provide different taste with diffreren flavours');
 // console.log('i really like pizza!');
 //35
-var animals:string[] = ["dog",'cat','horse',"cow"];
+var animals: string[] = ["dog", 'cat', 'horse', "cow"];
 //to print the animals name in list
-for(let i=0;i<animals.length;i++){
-   // console.log(animals[i]);
+for (let i = 0; i < animals.length; i++) {
+    // console.log(animals[i]);
 }
 console.log('statement about each animal');
-for(let i=0;i<animals.length;i++){
-    switch (animals[i]){
+for (let i = 0; i < animals.length; i++) {
+    switch (animals[i]) {
         case "dog":
-          //  console.log(`A ${animals[i]} is a good pet`);
+            //  console.log(`A ${animals[i]} is a good pet`);
             break;
-            case "cat":
-                //console.log(`A ${animals[i]} is beautifull pet`);
-                break;
-                case "horse":
-                   // console.log(`${animals[i]} is a symbol of strength`);
-                    break;
-                    case "cow":
-                        //console.log(`${animals[i]} is a source of milk`);
+        case "cat":
+            //console.log(`A ${animals[i]} is beautifull pet`);
+            break;
+        case "horse":
+            // console.log(`${animals[i]} is a symbol of strength`);
+            break;
+        case "cow":
+        //console.log(`${animals[i]} is a source of milk`);
     }
 }
 //console.log("Any of these animals would make a great pet!");
 //36
-function make_tshirts(size:number,textmsg:string){
+function make_tshirts(size: number, textmsg: string) {
     // console.log(`size of shirt is ${size}`);
     // console.log(`Message on tshirt is ${textmsg}`);
 }
-make_tshirts(35,"hey buddy light weight");
+make_tshirts(35, "hey buddy light weight");
 //37
-function shirts(size:number,size2:number,logo:string){
-// console.log(`large shirt and its size is ${size} logo is ${logo}`);
-// console.log(`medium shirt size is ${size2} logo is ${logo}`);
+function shirts(size: number, size2: number, logo: string) {
+    // console.log(`large shirt and its size is ${size} logo is ${logo}`);
+    // console.log(`medium shirt size is ${size2} logo is ${logo}`);
 }
-shirts(42,39,"i love typescripit");
+shirts(42, 39, "i love typescripit");
 //38
-function described_cities(city:string,country:string,city2:string,country2:string,city3:string,country3:string){
+function described_cities(city: string, country: string, city2: string, country2: string, city3: string, country3: string) {
     // console.log(`${city} is in ${country}`);
     // console.log(`${city2} is in ${country2}`);
     // console.log(`${city3} is in ${country3}`);
 }
-described_cities("karachi","pakistan","Delhi","india","london","England")
+described_cities("karachi", "pakistan", "Delhi", "india", "london", "England")
 //39
-function citycountry(city:string,country:string){
+function citycountry(city: string, country: string) {
     return `"${city}", "${country}"`
 }
-const city1 = citycountry("lahore","pakistan");
+const city1 = citycountry("lahore", "pakistan");
 const city2 = citycountry("Newyork", "america");
 const city3 = citycountry("kanpur", 'india');
 // console.log(city1);
@@ -320,50 +366,86 @@ const city3 = citycountry("kanpur", 'india');
 
 
 //41
-var magician:string[] = ["joker",'buddy',"heri"];
-function magician_names(){
-    for(let i=0;i<magician.length;i++){
-console.log(magician[i]);
+var magician: string[] = ["joker", 'buddy', "heri"];
+function magician_names() {
+    for (let i = 0; i < magician.length; i++) {
+        console.log(magician[i]);
     }
 }
 magician_names();
 //42
-function great_magician(tag:string){
-    for(let i=0;i<magician.length;i++){
+function great_magician(tag: string) {
+    for (let i = 0; i < magician.length; i++) {
         console.log(`${magician[i]} is a ${tag}`);
     }
 }
 great_magician("great magician");
 //43
-function make_great(originalmagicians:string[]){
+function make_great(originalmagicians: string[]) {
     let greatmagician: string[] = [];
-    for(let i=0;i<originalmagicians.length;i++){
-var magician = originalmagicians[i] + "the great";
-greatmagician.push(magician);
+    for (let i = 0; i < originalmagicians.length; i++) {
+        var magician = originalmagicians[i] + "the great";
+        greatmagician.push(magician);
 
     }
     return greatmagician;
 }
 function showMagicians(magicianNames: string[]) {
-    for (let l=0;l<magicianNames.length;l++) {
+    for (let l = 0; l < magicianNames.length; l++) {
         console.log(magicianNames[l])
     }
 }
-var names:string[] = ['herry',"joker","jack","jinbaba"];
+var names: string[] = ['herry', "joker", "jack", "jinbaba"];
 
-const greatmagician:string[] = make_great([...names]);
+const greatmagician: string[] = make_great([...names]);
 console.log("original");
 showMagicians(names);
 console.log("with the great");
 showMagicians(greatmagician);
 //44
-function make_sandwich(items:string[]){
+function make_sandwich(items: string[]) {
     console.log("your are sandwich ready with following items");
-    for(let i=0;i<items.length;i++){
+    for (let i = 0; i < items.length; i++) {
         // console.log(`-${items}`);
     }
 }
-make_sandwich(['bread',"cheese","chicken"]);
-make_sandwich(['kethcup',"eggs"]);
-make_sandwich(["extra cheese","potates"]);
+make_sandwich(['bread', "cheese", "chicken"]);
+make_sandwich(['kethcup', "eggs"]);
+make_sandwich(["extra cheese", "potates"]);
+//45
+type Car = {
+    manufacturer: string;
+    model: string;
+    [key: string]: any;
+
+}
+function createCar(manufacturer: string, model: string, ...options: any[]) {
+    const car: Car = {
+        manufacturer,
+        model,
+    };
+    for (let i = 0; i < options.length; i += 2) {
+        const key = options[i];
+        const value = options[i + 1];
+        car[key] = value;
+    }
+    return car;
+}
+const myCar = createCar("Toyota", "Camry", "color", "blue", "year", 2023);
+//console.log(myCar);
+//40
+function make_album(artist: string, title: string) {
+    const album = {
+        artist: artist,
+        title:title,
+    }
+    return album;
+}
+const album1 = make_album("Artist1", "Album Title 1");
+const album2 = make_album("Artist2", "Album Title 2"); 
+const album3 = make_album("Artist3", "Album Title 3");
+console.log(album1);
+console.log(album2);
+console.log(album3);
+
 
