@@ -1,39 +1,40 @@
 // 2
 var stud: string = "Eric"
-// console.log('hello',stud,"would you like learn phython today");
+ console.log('hello',stud,"would you like learn phython today");
 //3
 var personsName: string[] = ["sarab", "wasif", "cheema"];
 //print name as list
-/*console.log("lowercase",personsName[0]);
+console.log("lowercase",personsName[0]);
 console.log('uppercase',personsName[1]);
-console.log("titlecase",personsName[2]);*/
+console.log("titlecase",personsName[2]);
 //4
 var aurthur: string = "Albert Einstein";
 var quote: string = "A person who never made a mistake never tried anything new."
-// console.log(aurthur,"once said,",`"${quote}"`);
+ console.log(aurthur,"once said,",`"${quote}"`);
 //5
 let famousPerson: string = "Sarab";
 let message: string = "everyone will get what he works for";//msg to print
-// console.log(message);
+ console.log(message);
 //6
 const nameWithWhitespace = "\t\tJohn Doe\n";
-// Print the name with whitespace
-//console.log("Name with whitespace:");
-//console.log(nameWithWhitespace);
+//Print the name with whitespace
+console.log("Name with whitespace:");
+console.log(nameWithWhitespace);
 
 // Strip the whitespace and print the name
 const strippedName = nameWithWhitespace.trim();
-//console.log("\nName after stripping whitespace:");
-//console.log(strippedName);
+console.log("\nName after stripping whitespace:");
+console.log(strippedName);
 //7
+//result of every number is 8
 var addition: number = 6 + 2;
-//console.log("Addition result =",addition);
+console.log("Addition result =",addition);
 var subtraction: number = 12 - 4;
-//console.log("subtraction result =",subtraction);
+console.log("subtraction result =",subtraction);
 var multiplication: number = 4 * 2;
-//console.log("multiplication result =",multiplication);
+console.log("multiplication result =",multiplication);
 var divison: number = 64 / 8;
-//console.log("divison result =",divison);
+console.log("divison result =",divison);
 //8
 console.log(5 + 3);
 console.log(5 + 3);
@@ -42,27 +43,27 @@ console.log(5 + 3);
 //9
 var favNumber: number = 8;
 if (favNumber == 8) {
-    //console.log(8 ,"is may favourite number");
+console.log(8 ,"is may favourite number");
 }
 //11
 var calledNames: string[] = ["saqib", "wasif", "taqi", "sarab"];
 var friends = calledNames.forEach((calledNames) => {
-    // console.log(calledNames);
+     console.log(calledNames);
 })
 //12
 var freindsgroup: string[] = ["saqib", "wasif", "taqi", "sarab"];
 var message2 = freindsgroup.forEach((freindsgroup: string) => {
-    //console.log(freindsgroup,"have a nice day my freind");
+    console.log(freindsgroup,"have a nice day my freind");
 })
 //  13
 const motorcycles: string[] = ["Honda", "Yamaha", "Kawasaki", "Ducati", "BMW"];
 var transport = motorcycles.forEach((data) => {
-    // console.log(`i would like to own ${data} motorcycle`);
+     console.log(`i would like to own ${data} motorcycle`);
 })
 //14
 var guests: string[] = ["rock", "jack", "deep"];
 var invitataion = guests.forEach((guests) => {
-    // console.log(`Hy ${guests} i would like to invite yu on dinner`);
+     console.log(`Hy ${guests} i would like to invite yu on dinner`);
 })
 //15
 var gusets1: string[] = ["rock", "jhonny deep", "cheema", "jack"];
@@ -71,7 +72,7 @@ console.log("jack cant make it");
 gusets1.pop();
 gusets1.push("cheema");
 for (let i = 0; i < gusets1.length; i++) {
-    // console.log(`hello ${gusets1[i]} i invite yu on dinner`);
+     console.log(`hello ${gusets1[i]} i invite yu on dinner`);
 }
 var gusets2: string[] = ["rock", "jhonny deep", "cheema", "jack"];
 console.log("hello huests i found a bigger table");
@@ -82,39 +83,39 @@ var middlename = Math.floor(gusets2.length / 2);
 var addg = "jaffery"
 gusets2.splice(middlename, 0, addg);
 for (let i = 0; i < gusets2.length; i++) {
-    //console.log(`hello ${gusets2[i]} i invite yu on dinner`);
+    console.log(`hello ${gusets2[i]} i invite yu on dinner`);
 }
 //17
-// we have not dinner table spacce
-// console.log("guets i have not space on dinner");
-// gusets2.pop();
-// console.log("soory jones");
-// gusets2.shift();
-// console.log("sorry herry");
-// gusets2.pop();
-// console.log("sorry jack");
-// gusets2.pop();
-// console.log("soryy cheema");
-// gusets2.pop();
-// console.log("sorry jaffery");
+//we have not dinner table spacce
+console.log("guets i have not space on dinner");
+gusets2.pop();
+console.log("soory jones");
+gusets2.shift();
+console.log("sorry herry");
+gusets2.pop();
+console.log("sorry jack");
+gusets2.pop();
+console.log("soryy cheema");
+gusets2.pop();
+console.log("sorry jaffery");
 var still = gusets2.forEach((gusets2) => {
-    // console.log(`${gusets2} yu are still invited`);
+     console.log(`${gusets2} yu are still invited`);
 })
 gusets2.pop();
 gusets2.pop();//guest list are empty
-// console.log(gusets2);
+console.log(gusets2);
 //18
 var places: string[] = ["paris", "mount everst", "hollywood"];
 console.log(places);
 places.sort();
 console.log(places);
 //19
-//console.log("i invited many peoples but at the ma guests list is empty");
+console.log("i invited many peoples but at the ma guests list is empty");
 //20
 var random: string[] = ["canada", 'urdu', 'car', 'chak jhumra', "moon"];
 console.log("list of random");
 for (let i = 0; i < random.length; i++) {
-    // console.log(random[i]);   
+     console.log(random[i]);   
 }
 //21
 let car = {
@@ -124,44 +125,44 @@ let car = {
     modelyear: 2023,
     inuse: false
 }
-//console.log(car);
+console.log(car);
 //22
 var find: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const index = 11;
-// console.log(`Accessing element at index ${index}: ${find[index]}`);
+console.log(`Accessing element at index ${index}: ${find[index]}`);
 const index2 = 3;
-// console.log(`Accessing element at index ${index}: ${find[index2]}`);
+ console.log(`Accessing element at index ${index}: ${find[index2]}`);
 
 //23
 let jeep = "honda";
 let age1 = 20;
 let jeepcolour = 'black';
 let rain = false;
-// console.log("is jeep= 'honda' ? i predict true");
-// console.log(jeep == "honda");
-// console.log("is age1 < 22 ? i predict true");
-// console.log(age1 < 22);
-// console.log('is jeepcolour = white ? i predict false');
-// console.log(jeepcolour== "black");
-// console.log("is rain is happening ? i predict false");
-// console.log(rain = false);
-// console.log("is jeep != toyato ? i predict false");
-// console.log(jeep !== "toyayto");
-// console.log("is age1 >20 ? i predict false");
-// console.log(age1>20);
+ console.log("is jeep= 'honda' ? i predict true");
+ console.log(jeep == "honda");
+ console.log("is age1 < 22 ? i predict true");
+ console.log(age1 < 22);
+ console.log('is jeepcolour = white ? i predict false');
+ console.log(jeepcolour== "black");
+ console.log("is rain is happening ? i predict false");
+console.log(rain = false);
+console.log("is jeep != toyato ? i predict false");
+console.log(jeep !== "toyayto");
+console.log("is age1 >20 ? i predict false");
+console.log(age1>20);
 //24
 let fruits1 = ["apple],'grapes"];
 let num = 10;
 let num2 = 4;
 let driving = false;
-// console.log("is fruits.length = 2 ? i predict true");
-// console.log(fruits.length == 2);
-// console.log('is num = 11 ? i predict false');
-// console.log(num == 11);
+console.log("is fruits.length = 2 ? i predict true");
+console.log(fruits1.length == 2);
+console.log('is num = 11 ? i predict false');
+console.log(num == 11);
 //25
 var alliencolour: string = "green"
 if (alliencolour == "green") {
-    //console.log("player just earned 5 points");
+    console.log("player just earned 5 points");
 }
 else {
 
@@ -177,24 +178,23 @@ else {
 }
 var alliencolour2: string = "red";
 if (alliencolour2 == "green") {
-    //console.log("player just earned 5 points");
+    console.log("player just earned 5 points");
 }
 else {
-    //console.log("player just earned 10 points");
-
+    console.log("player just earned 10 points");
 }
 //27
 var alliencolour3: string = "green";
 if (alliencolour3 == "green") {
-    // console.log("player just earned 5 points");
+     console.log("player just earned 5 points");
 }
 var alliencolour4: string = "red";
 if (alliencolour4 == "red") {
-    // console.log("player earned 15 points");
+     console.log("player earned 15 points");
 }
 var alliencolour5: string = "yellow";
 if (alliencolour5 == "yellow") {
-    // console.log("player just earned 10 points");
+     console.log("player just earned 10 points");
 }
 //28
 var age: number = 20;
@@ -211,7 +211,7 @@ else if (age == 13 && age < 20) {
     console.log("teenager");
 }
 else if (age == 20 && age < 65) {
-    //console.log("adult");
+    console.log("adult");
 }
 else {
     console.log("older");
@@ -219,16 +219,16 @@ else {
 //29
 var fruits: string[] = ["Apple", "Mango", "Banana"];
 if (fruits[0] == "Apple") {
-    // console.log("you really like Apple!");
+     console.log("you really like Apple!");
 }
 if (fruits[1] == "grapes") {
-    // console.log("yu like grapes!");
+     console.log("yu like grapes!");
 }
 if (fruits[1] == "Mango") {
-    // console.log("you like Mango!");
+    console.log("you like Mango!");
 }
 if (fruits[2] == "Banana") {
-    // console.log("you like banana!");
+    console.log("you like banana!");
 }
 if (fruits[0] == "pineapple") {
     console.log("yiu like pineapple!");
@@ -247,15 +247,15 @@ if (users.length == 0) {
     console.log("we need some users");
 }
 else {
-    //console.log("we not need users");
+    console.log("we not need users");
 }
 for (let i = users.length - 1; i >= 0; i--) {
     users.pop()
     if (users.length == 0) {
-        //    console.log("we need some users");
-        // }
-        // else{
-        //     console.log("we not need users");
+           console.log("we need some users");
+        }
+        else{
+            console.log("we not need users");
 
     }
 }
@@ -264,10 +264,10 @@ var currentusers: string[] = ["sarab", 'wasif', "cheema", "saqib"];
 var newusers: string[] = ["taqi", "farz", "sarab", "umer"];
 for (let i = 0; i < currentusers.length; i++) {
     if (newusers.includes(currentusers[i])) {
-        //console.log(`${currentusers[i]} is not accepted`);
+        console.log(`${currentusers[i]} is not accepted`);
     }
     else {
-        //console.log(`${currentusers[i]} is accepted`);
+        console.log(`${currentusers[i]} is accepted`);
     }
 }
 //33
@@ -301,56 +301,56 @@ for (let i = 0; i < sepnumbers.length; i++) {
     else if (sepnumbers[i] == 9) {
         add = "th";
     }
-    // console.log(`${sepnumbers[i]}${add}`);
+    console.log(`${sepnumbers[i]}${add}`);
 }
 //34
 var pizzas: string[] = ["kabab", "onion", 'vegetarian'];
 for (let i = 0; i < pizzas.length; i++) {
-    // console.log(`i like ${pizzas[i]} pizza`);
+     console.log(`i like ${pizzas[i]} pizza`);
 }
-// console.log('pizza is small meal');
-// console.log('pizza provide different taste with diffreren flavours');
-// console.log('i really like pizza!');
+console.log('pizza is small meal');
+console.log('pizza provide different taste with diffreren flavours');
+console.log('i really like pizza!');
 //35
 var animals: string[] = ["dog", 'cat', 'horse', "cow"];
 //to print the animals name in list
 for (let i = 0; i < animals.length; i++) {
-    // console.log(animals[i]);
+     console.log(animals[i]);
 }
 console.log('statement about each animal');
 for (let i = 0; i < animals.length; i++) {
     switch (animals[i]) {
         case "dog":
-            //  console.log(`A ${animals[i]} is a good pet`);
+             console.log(`A ${animals[i]} is a good pet`);
             break;
         case "cat":
-            //console.log(`A ${animals[i]} is beautifull pet`);
+            console.log(`A ${animals[i]} is beautifull pet`);
             break;
         case "horse":
-            // console.log(`${animals[i]} is a symbol of strength`);
+             console.log(`${animals[i]} is a symbol of strength`);
             break;
         case "cow":
-        //console.log(`${animals[i]} is a source of milk`);
+        console.log(`${animals[i]} is a source of milk`);
     }
 }
-//console.log("Any of these animals would make a great pet!");
+console.log("Any of these animals would make a great pet!");
 //36
 function make_tshirts(size: number, textmsg: string) {
-    // console.log(`size of shirt is ${size}`);
-    // console.log(`Message on tshirt is ${textmsg}`);
+    console.log(`size of shirt is ${size}`);
+     console.log(`Message on tshirt is ${textmsg}`);
 }
 make_tshirts(35, "hey buddy light weight");
 //37
 function shirts(size: number, size2: number, logo: string) {
-    // console.log(`large shirt and its size is ${size} logo is ${logo}`);
-    // console.log(`medium shirt size is ${size2} logo is ${logo}`);
+     console.log(`large shirt and its size is ${size} logo is ${logo}`);
+     console.log(`medium shirt size is ${size2} logo is ${logo}`);
 }
 shirts(42, 39, "i love typescripit");
 //38
 function described_cities(city: string, country: string, city2: string, country2: string, city3: string, country3: string) {
-    // console.log(`${city} is in ${country}`);
-    // console.log(`${city2} is in ${country2}`);
-    // console.log(`${city3} is in ${country3}`);
+    console.log(`${city} is in ${country}`);
+    console.log(`${city2} is in ${country2}`);
+    console.log(`${city3} is in ${country3}`);
 }
 described_cities("karachi", "pakistan", "Delhi", "india", "london", "England")
 //39
@@ -360,11 +360,23 @@ function citycountry(city: string, country: string) {
 const city1 = citycountry("lahore", "pakistan");
 const city2 = citycountry("Newyork", "america");
 const city3 = citycountry("kanpur", 'india');
-// console.log(city1);
-// console.log(city2);
-// console.log(city3);
-
-
+console.log(city1);
+console.log(city2);
+console.log(city3);
+//40
+function make_album(artist: string, title: string) {
+    const album = {
+        artist: artist,
+        title:title,
+    }
+    return album;
+}
+const album1 = make_album("Artist1", "Album Title 1");
+const album2 = make_album("Artist2", "Album Title 2"); 
+const album3 = make_album("Artist3", "Album Title 3");
+console.log(album1);
+console.log(album2);
+console.log(album3);
 //41
 var magician: string[] = ["joker", 'buddy', "heri"];
 function magician_names() {
@@ -406,7 +418,7 @@ showMagicians(greatmagician);
 function make_sandwich(items: string[]) {
     console.log("your are sandwich ready with following items");
     for (let i = 0; i < items.length; i++) {
-        // console.log(`-${items}`);
+        console.log(`-${items}`);
     }
 }
 make_sandwich(['bread', "cheese", "chicken"]);
@@ -432,20 +444,4 @@ function createCar(manufacturer: string, model: string, ...options: any[]) {
     return car;
 }
 const myCar = createCar("Toyota", "Camry", "color", "blue", "year", 2023);
-//console.log(myCar);
-//40
-function make_album(artist: string, title: string) {
-    const album = {
-        artist: artist,
-        title:title,
-    }
-    return album;
-}
-const album1 = make_album("Artist1", "Album Title 1");
-const album2 = make_album("Artist2", "Album Title 2"); 
-const album3 = make_album("Artist3", "Album Title 3");
-console.log(album1);
-console.log(album2);
-console.log(album3);
-
-
+console.log(myCar);
